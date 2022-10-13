@@ -1,0 +1,276 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a {
+ color:white;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #18BC9C;
+  outline: none; }
+
+.navbar-brand {
+ font-size: 27px;
+ color:white;
+}
+
+.nav-custom {
+ background-color: #2c3e50;
+font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 700;
+  }
+
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px; }
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f2c5";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em; }
+
+hr.star-light {
+  border-color: white; }
+
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white; }
+
+hr.star-primary {
+  border-color: #2C3E50; }
+
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50; }
+
+.img-centered {
+  margin: 0 auto; }
+
+
+header {
+  text-align: center;
+  background: #18BC9C;
+  color: white; }
+
+  header .container {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+
+  header img {
+    display: block;
+    margin: 50px auto 20px;
+   padding: 50px;
+    }
+
+  header .intro-text .name {
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em; }
+  header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300; }
+
+#portfolio {
+ text-align: center;
+ margin: 20px;
+ color: #2c3e50
+}
+#portfolio img {
+ width: 200px;
+ border:none; 
+}
+.card {
+ padding: 20px;
+ margin: 45px;
+ font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2em; 
+ 
+}
+
+
+#about {
+  text-align: center;
+  background: #18BC9C;
+  color: white; 
+}
+
+#about .container {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+
+section {
+  padding: 100px 0; }
+  section h2 {
+    margin: 0;
+    font-size: 3em; }
+
+section.success {
+  background: #18BC9C;
+  color: white; }
+
+
+
+#contact {
+  text-align: center;  
+ color:#2c3e50
+  
+}
+label {
+  color:#2c3e50
+     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1,7em; 
+}
+
+footer {
+  color: white; }
+  footer h3 {
+    margin-bottom: 30px; }
+  footer .footer-above {
+    padding-top: 50px;
+    background-color: #2C3E50; }
+  footer .footer-col {
+    margin-bottom: 50px; }
+  footer .footer-below {
+    padding: 25px 0;
+    background-color: #2c3e50; }
+
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px; }
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: #18BC9C;
+    background: white;
+    border: solid 2px white; }
+
+.btn-primary {
+  color: white;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+  font-weight: 700; }
+  .btn-primary:focus, .btn-primary.focus {
+    color: white;
+    background-color: #1a252f;
+    border-color: black; }
+  .btn-primary:hover {
+    color: white;
+    background-color: #1a252f;
+    border-color: #161f29; }
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    color: white;
+    background-color: #1a252f;
+    border-color: #161f29; }
+    .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+    .open > .btn-primary.dropdown-toggle:hover,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle.focus {
+      color: white;
+      background-color: #0d1318;
+      border-color: black; }
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary.focus {
+    background-color: #2C3E50;
+    border-color: #2C3E50; }
+  .btn-primary .badge {
+    color: #2C3E50;
+    background-color: white; }
+
+.btn-success {
+  color: white;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+  font-weight: 700; }
+  .btn-success:focus, .btn-success.focus {
+    color: white;
+    background-color: #128f76;
+    border-color: #0a4b3e; }
+  .btn-success:hover {
+    color: white;
+    background-color: #128f76;
+    border-color: #11866f; }
+  .btn-success:active, .btn-success.active,
+  .open > .btn-success.dropdown-toggle {
+    color: white;
+    background-color: #128f76;
+    border-color: #11866f; }
+    .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus,
+    .open > .btn-success.dropdown-toggle:hover,
+    .open > .btn-success.dropdown-toggle:focus,
+    .open > .btn-success.dropdown-toggle.focus {
+      color: white;
+      background-color: #0e6f5c;
+      border-color: #0a4b3e; }
+  .btn-success:active, .btn-success.active,
+  .open > .btn-success.dropdown-toggle {
+    background-image: none; }
+  .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus,
+  fieldset[disabled] .btn-success:hover,
+  fieldset[disabled] .btn-success:focus,
+  fieldset[disabled] .btn-success.focus {
+    background-color: #18BC9C;
+    border-color: #18BC9C; }
+  .btn-success .badge {
+    color: #18BC9C;
+    background-color: white; }
+
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px; }
+
+.btn:focus,
+.btn:active,
+.btn.active {
+  outline: none; }
+
+
+
+
+
